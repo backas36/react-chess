@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-chess/static/css/main.dcb77fed.chunk.css",
+    "main.js": "/react-chess/static/js/main.e875791b.chunk.js",
+    "main.js.map": "/react-chess/static/js/main.e875791b.chunk.js.map",
+    "runtime-main.js": "/react-chess/static/js/runtime-main.48b95d7e.js",
+    "runtime-main.js.map": "/react-chess/static/js/runtime-main.48b95d7e.js.map",
+    "static/js/2.c5666d7c.chunk.js": "/react-chess/static/js/2.c5666d7c.chunk.js",
+    "static/js/2.c5666d7c.chunk.js.map": "/react-chess/static/js/2.c5666d7c.chunk.js.map",
+    "index.html": "/react-chess/index.html",
+    "static/css/main.dcb77fed.chunk.css.map": "/react-chess/static/css/main.dcb77fed.chunk.css.map",
+    "static/js/2.c5666d7c.chunk.js.LICENSE.txt": "/react-chess/static/js/2.c5666d7c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48b95d7e.js",
+    "static/js/2.c5666d7c.chunk.js",
+    "static/css/main.dcb77fed.chunk.css",
+    "static/js/main.e875791b.chunk.js"
+  ]
+}
