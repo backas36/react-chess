@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from 'react'
 
 const countChess = (board, x, y, directionX, directionY) => {
   const currentChess = board[y][x]
