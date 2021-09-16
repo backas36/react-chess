@@ -1,17 +1,17 @@
 import { useState, useRef, useEffect } from "react";
 
 const countChess = (board, x, y, directionX, directionY) => {
-  const currentChess = board[y][x];
-  let tempX = x + directionX;
-  let tempY = y + directionY;
-  let total = 0;
+  const currentChess = board[y][x]
+  let tempX = x + directionX
+  let tempY = y + directionY
+  let total = 0
 
   while (board[tempY] && board[tempY][tempX] === currentChess) {
-    tempX += directionX;
-    tempY += directionY;
-    total++;
+    tempX += directionX
+    tempY += directionY
+    total++
   }
-  return total;
+  return total
 }
 
 const getWinner = (board, x, y) => {
@@ -21,7 +21,7 @@ const getWinner = (board, x, y) => {
     countChess(board, x, y, 1, 1) + countChess(board, x, y, -1, -1) >= 4 ||
     countChess(board, x, y, 1, -1) + countChess(board, x, y, -1, 1) >= 4
   ) {
-    return board[y][x]; // 回傳黑子還是白子
+    return board[y][x]
   }
 }
 
